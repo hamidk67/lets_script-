@@ -50,4 +50,4 @@ def convert(value, input_format, output_format):
 
 # Run the Flask application on host 0.0.0.0 and port 8080
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8080)
+    app.run(debug=True, host='127.0.0.1', port=8080)
